@@ -10,5 +10,26 @@
         android:id="@+id/birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday man" />
+        android:text="Happy Birthday"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@android:color/white"
+        android:text="From: me" />
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:src="@drawable/androidparty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
