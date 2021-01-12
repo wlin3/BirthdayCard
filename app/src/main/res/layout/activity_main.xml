@@ -5,7 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty"/>
     <TextView
         android:id="@+id/birthday"
         android:layout_width="wrap_content"
@@ -26,10 +31,4 @@
         android:textColor="@android:color/white"
         android:text="From: me" />
 
-
-    <ImageView
-        android:id="@+id/background"
-        android:src="@drawable/androidparty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
 </RelativeLayout>
