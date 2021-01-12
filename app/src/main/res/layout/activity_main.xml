@@ -19,6 +19,7 @@
         android:textSize="36sp"
         android:fontFamily="sans-serif-condensed-light"
         android:textColor="@android:color/white"
+        android:padding="20dp"
         />
     <TextView
         android:id="@+id/from"
@@ -29,6 +30,7 @@
         android:textSize="36sp"
         android:fontFamily="sans-serif-condensed-light"
         android:textColor="@android:color/white"
+        android:padding="20dp"
         android:text="From: me" />
 
 </RelativeLayout>
